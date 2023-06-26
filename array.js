@@ -83,7 +83,7 @@ const users = [
 
 const elderUsers = (age) => {
   const elders = users.filter(user => user.age > age)
-  users.slice(3, 3)
+  users.splice(3, 3)
 }
 
 const newUsers = users.reduce((acc, user) => {
